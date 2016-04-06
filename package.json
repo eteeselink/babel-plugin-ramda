@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-ramda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ramda modularized builds without the hassle",
   "repository": "megawac/babel-plugin-ramda",
   "author": "Graeme Yeates (github.com/megawac) <megawac@gmail.com>",
@@ -21,8 +21,8 @@
     "modularize",
     "babel-plugin"
   ],
-  "dependencies": {
-    "ramda": "^0.19.1"
+  "peerDependencies": {
+    "ramda": "^0.x"
   },
   "babel": {
     "presets": [
